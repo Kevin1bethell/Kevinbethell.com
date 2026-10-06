@@ -1,0 +1,6 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<header class="page-head"><p class="eyebrow">Research</p><h1>Aesthetics, embodiment, and artistic practice.</h1><p class="lede">My research centers on philosophical aesthetics and philosophy of art, with particular attention to tattooing, embodiment, pain, artistic practice, and the history of aesthetic thought.</p></header><section class="section grid"><div><p class="eyebrow">Current work</p></div><div class="prose"><h2>Tattooing, aesthetics, and asceticism</h2><p>My current doctoral research examines tattooing in relation to ascetic traditions and practices. Rather than assuming that tattooing is itself an ascetic practice, I am interested in what becomes visible when the two are placed in philosophical conversation: pain, discipline, ritual, transformation, embodiment, and the role of willing subjects.</p><p>A central question is whether the pain involved in tattooing is merely incidental to the finished image or can be constitutive of an aesthetic process through which an ideal is brought into embodied form.</p><h2>Other interests</h2><p>My broader interests include Kant and German Idealism, Nietzsche, the ontology and interpretation of body art, AI-generated art, materiality in Japanese tattooing, and the relationship between aesthetic experience and pedagogy.</p></div></section>

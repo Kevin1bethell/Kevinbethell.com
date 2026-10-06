@@ -1,0 +1,5 @@
+title: Kevin Bethell
+description: Philosophy, aesthetics, and education
+url: "https://kevinbethell.com"
+permalink: /writing/:title/
+markdown: kramdown
