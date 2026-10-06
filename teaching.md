@@ -1,0 +1,6 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+<header class="page-head"><p class="eyebrow">Teaching</p><h1>Teaching as an open, active practice.</h1><p class="lede">My teaching work spans adult basic education and higher education, with a particular interest in how philosophical traditions can inform contemporary pedagogy.</p></header><section class="section grid"><div><p class="eyebrow">Approach</p></div><div class="prose"><p>I am interested in classrooms that are relaxed, inviting, and intellectually serious: spaces where students can ask questions, test ideas, and participate actively in their own learning.</p><p>My work in adult education has included public online instruction as well as correctional and mental-health settings. I use differentiated instruction to meet students at very different points in their education while maintaining a shared classroom community.</p><h2>Pedagogical interests</h2><p>My current interests include Socratic ignorance and inductive questioning, movement and walking in the classroom, problem-posing education, and the role of aesthetic experience in adult learning.</p></div></section>
