@@ -3,3 +3,6 @@
 
 /* Compact year-group spacing on the teaching page only */
 .teaching-list h2{margin-top:1.1em;margin-bottom:.35em}.teaching-list h2:first-child{margin-top:0}.teaching-list p{margin:.35em 0 .7em}
+
+/* Tighter CV rhythm without changing other pages */
+.cv-list h2{margin-top:1.15em;margin-bottom:.3em}.cv-list h2:first-child{margin-top:0}.cv-list p{margin:.35em 0 .75em}.cv-list p:first-child{margin-top:0}.cv-list p:last-child{margin-bottom:0}
