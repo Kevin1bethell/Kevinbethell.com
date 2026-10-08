@@ -3,3 +3,6 @@ description: Philosophy, Aesthetics, and Body Art
 url: "https://kevinbethell.com"
 permalink: /writing/:title/
 markdown: kramdown
+
+paginate: 10
+paginate_path: "/writing/page:num/"
