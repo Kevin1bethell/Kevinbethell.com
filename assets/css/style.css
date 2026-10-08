@@ -6,3 +6,6 @@
 
 /* Tighter CV rhythm without changing other pages */
 .cv-list h2{margin-top:1.15em;margin-bottom:.3em}.cv-list h2:first-child{margin-top:0}.cv-list p{margin:.35em 0 .75em}.cv-list p:first-child{margin-top:0}.cv-list p:last-child{margin-bottom:0}
+
+/* Marginalia search, tags and pagination */
+.marginalia-tools{margin-bottom:28px}.marginalia-tools label{display:block;font:12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.13em;color:var(--muted);margin-bottom:8px}.marginalia-tools input{width:100%;max-width:580px;background:transparent;border:1px solid var(--line);border-radius:2px;padding:12px 14px;color:var(--ink);font:16px Georgia,serif}.tag-filters,.entry-tags{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.tag-pill{font:12px Arial,sans-serif;border:1px solid var(--line);border-radius:16px;background:transparent;color:var(--muted);padding:5px 10px;cursor:pointer}.tag-pill:hover,.tag-pill.active{border-color:var(--accent);color:var(--accent)}.marginalia-pages{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:24px;font:13px Arial,sans-serif}.marginalia-pages button{border:0;background:transparent;color:var(--accent);cursor:pointer;font:inherit;padding:0}.marginalia-pages button:disabled{color:var(--muted);cursor:default}.post .entry-tags{margin-top:30px}
