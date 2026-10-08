@@ -4,8 +4,8 @@
   let posts=[];try{posts=JSON.parse(document.getElementById('marginalia-index').textContent)}catch(e){return}
   const allTags=[...new Set(posts.flatMap(p=>p.tags||[]))].sort((a,b)=>a.localeCompare(b));let selected='',page=1;const perPage=10;
   function el(tag,cls,txt){const node=document.createElement(tag);if(cls)node.className=cls;if(txt!==undefined)node.textContent=txt;return node}
-  function tagButton(tag){const b=el('button','tag-pill'+(selected===tag?' active':''),tag);b.type='button';b.setAttribute('aria-pressed',String(selected===tag));b.addEventListener('click',()=>{selected=selected===tag?'':tag;page=1;render()});return b}
-  function render(){const q=input.value.trim().toLocaleLowerCase();const filtering=!!(q||selected);filters.replaceChildren();if(allTags.length){filters.append(tagButton('All'));for(const tag of allTags){const b=tagButton(tag);if(!selected&&tag==='All')b.classList.add('active');filters.append(b)}}
+  function tagButton(tag){const b=el('button','tag-pill'+(selected===tag?' active':''),tag);b.type='button';b.setAttribute('aria-pressed',String(selected===tag));b.addEventListener('click',()=>{selected=tag==='All'||selected===tag?'':tag;page=1;render()});return b}
+  function render(){document.querySelectorAll('.search-pages').forEach(n=>n.remove());const q=input.value.trim().toLocaleLowerCase();const filtering=!!(q||selected);filters.replaceChildren();if(allTags.length){filters.append(tagButton('All'));for(const tag of allTags){const b=tagButton(tag);if(!selected&&tag==='All')b.classList.add('active');filters.append(b)}}
     if(!filtering){document.querySelectorAll('.search-pages').forEach(n=>n.remove());list.hidden=false;nav.hidden=false;count.hidden=true;return}
     const matches=posts.filter(p=>(!selected||selected==='All'||(p.tags||[]).includes(selected))&&(!q||[p.title,p.description,p.text,...(p.tags||[])].join(' ').toLocaleLowerCase().includes(q)));
     const pages=Math.max(1,Math.ceil(matches.length/perPage));page=Math.min(page,pages);list.replaceChildren();
