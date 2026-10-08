@@ -2,7 +2,7 @@
   const input=document.getElementById('marginalia-search'),list=document.getElementById('marginalia-posts'),nav=document.getElementById('marginalia-pages'),filters=document.getElementById('marginalia-tags'),count=document.getElementById('marginalia-count');
   if(!input||!list)return;
   let posts=[];try{posts=JSON.parse(document.getElementById('marginalia-index').textContent)}catch(e){return}
-  const allTags=[...new Set(posts.flatMap(p=>p.tags||[]))].sort((a,b)=>a.localeCompare(b));let selected='',page=1;const perPage=10;
+  const allTags=[...new Set(posts.flatMap(p=>p.tags||[]))].sort((a,b)=>a.localeCompare(b));let selected=new URLSearchParams(window.location.search).get('tag')||'',page=1;const perPage=10;
   function el(tag,cls,txt){const node=document.createElement(tag);if(cls)node.className=cls;if(txt!==undefined)node.textContent=txt;return node}
   function tagButton(tag){const b=el('button','tag-pill'+(selected===tag?' active':''),tag);b.type='button';b.setAttribute('aria-pressed',String(selected===tag));b.addEventListener('click',()=>{selected=tag==='All'||selected===tag?'':tag;page=1;render()});return b}
   function render(){document.querySelectorAll('.search-pages').forEach(n=>n.remove());const q=input.value.trim().toLocaleLowerCase();const filtering=!!(q||selected);filters.replaceChildren();if(allTags.length){filters.append(tagButton('All'));for(const tag of allTags){const b=tagButton(tag);if(!selected&&tag==='All')b.classList.add('active');filters.append(b)}}
