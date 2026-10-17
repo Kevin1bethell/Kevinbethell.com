@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Between One and Many"
+date: 2026-10-17
+tags:
+  - Aesthetics
+  - Art Criticism
+  - Exhibition Reflections
+  - Nietzsche
+  - Freedom
+---
+
 I had the pleasure of attending Fatima Taylor’s solo exhibition, titled *Between One and Many*, last night at the Priscilla R. Tyson Cultural Arts Center in Columbus, Ohio. Fatima (whom I know personally and thus will refer to by her first name) puts her technical skill with the brush on full display in her portraits. However, while she shows no shortage of technical proficiency, the strength of her work lies in the *idea*. Upon first glance at each work, it is clear that it holds an idea inaccessible to those who rush. I had the opportunity to sit in front of each work for some time, many of which left me frustrated at my own inadequacies of artistic contemplation. Like Tantalus reaching for an apple, each time I reached for this *idea*, so evident yet unexplained, it receded, pulling me further into the work.
 
 Of note, I found myself drawn to a few works in particular.
